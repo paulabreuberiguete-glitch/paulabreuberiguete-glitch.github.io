@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Personal Website</title>
     <style>
         body {
-            background: linear-gradient(to right, #0000ff, #1e90ff);
-            color: #ffffff;
+            background: linear-gradient(#0047ab, #1e90ff);
             font-family: Arial, sans-serif;
+            color: white;
         }
         header {
             text-align: center;
-            margin-bottom: 20px;
+            padding: 20px;
         }
-        img.header-image {
-            width: 100%;
-            max-width: 600px;
-        }
-        .profile-img {
-            display: block;
-            margin: 0 auto;
+        .logo {
             width: 150px;
-            height: auto;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="universidad-autonoma-de-santo-domingo-logo-png_seeklogo-640658.png" alt="UASD Logo" class="header-image">
+        <img src="path/to/uasd_logo.png" alt="UASD Logo" class="logo">
+        <h1>Welcome to My Personal Page</h1>
     </header>
-    <main>
-        <img src="Gemini_Generated_Image_jn20n5jn20n5jn20.png" alt="Profile Photo" class="profile-img">
-        <h1>Welcome to My Profile</h1>
-        <p>This is a presentation of my work and achievements.</p>
-    </main>
+    <div class="container">
+        <img src="path/to/profile_photo.jpg" alt="Profile Photo" class="profile-photo">
+        <div class="section">
+            <h2>Personal Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis dignissim erat.</p>
+        </div>
+        <div class="section">
+            <h2>Class Schedule</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis dignissim erat.</p>
+        </div>
+    </div>
 </body>
 </html>
